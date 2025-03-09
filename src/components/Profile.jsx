@@ -7,14 +7,14 @@ const Profile = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = await axios.get("https://api.ashyo.fullstackdev.uz/users", {
-          withCredentials: true, // если API использует сессии
+        const response = await axios.get("https://api.ashyo.fullstackdev.uz/users/me", { 
+          withCredentials: true,
           headers: {
-            Authorization: `Bearer ${localStorage.getItem("token")}`, // если API требует токен
+            Authorization: `Bearer ${localStorage.getItem("token")}`, 
           },
         });
 
-        setUser(response.data);
+        setUser(response.data); 
       } catch (error) {
         console.error("Ошибка загрузки профиля:", error);
       }

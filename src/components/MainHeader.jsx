@@ -49,13 +49,15 @@ export default function Header() {
         </div>
       </div>
       
-      <nav className="max-w-[1250px] mx-auto mt-6 flex gap-[13px] items-center justify-center space-x-12 text-gray-600 text-sm">
+      <nav className="max-w-[1250px] mx-auto mt-4 flex gap-[13px] items-center justify-center space-x-10 text-gray-600 text-sm">
         <a href="#" className="hover:text-black">Aksiyalar</a>
         <a href="#" className="hover:text-black">Smartfonlar</a>
         <a href="#" className="hover:text-black">Noutbooklar</a>
         <a href="#" className="hover:text-black">Kondetsionerlar</a>
         <a href="#" className="hover:text-black">Telivizorlar</a>
         <a href="#" className="hover:text-black">Muzlatgichlar</a>
+        <a href="#" className="hover:text-black">Kiryuvish mashinalari</a>
+        <a href="#" className="hover:text-black">Telivizorlar</a>
         <a href="#" className="hover:text-black">Kiryuvish mashinalari</a>
       </nav>
 

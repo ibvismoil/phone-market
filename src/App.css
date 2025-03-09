@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.custom-dots li button {
+    background-color: #ccc !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .custom-dots .slick-active button {
+    background-color: #007bff !important; /* Синий кружок */
+  }
+  .slide-image {
+    width: 50%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
