@@ -23,7 +23,7 @@ const slides = [
     title: "Samsung S25 Ultra",
     description:
       "Yangi Samsung S25 Ultra — yuqori sifat va eng zor kuchli texnologiyalar birlashtirilgan.",
-    image: "  ../src/assets/slider/samsung.png",
+    image: "  ../src/assets/slider/samsung",
     buttonText: "Ko‘proq ma’lumot",
     buttonLink: "#",
   },
@@ -36,7 +36,6 @@ const slides = [
     buttonLink: "#",
   },
 ];
-
 const CustomCarousel = () => {
   return (
     <Carousel autoplay dots={{ className: "custom-dots" }}>
